@@ -1,0 +1,63 @@
+/*let numero1 = parseInt(prompt("ingrese el primer nunmero"));
+let numero2 = parseInt(prompt("ingrse el segundo numero"));
+console.log(numero1+numero2)
+let numero1 = prompt("ing numero 1");
+let numero2 = prompt("ingrese numero2");
+console.log(parseInt(numero1) + parseInt(numero2));*/
+
+// let numero1 = prompt("ing numero 1");
+// let numero2 = prompt("ingrese numero2");
+// console.log(parseFloat(numero1) + parseFloat(numero2));
+// console.log(String(numero1));
+
+// let confirmacion = confirm("esta seguro que dea continuar");
+// console.log(confirmacion);
+let numero1 = parseInt(prompt("ingrese el primer nunmero"));
+let numero2 = parseInt(prompt("ingrse el segundo numero"));
+let operacion = prompt("ingrese la operacion a realizar 1) Suma 2) Resta 3) Multiplicacion 4) Division");
+
+if (operacion==1) {
+    let resultado = numero1 + numero2;
+    console.log( `el resultado es: ${resultado} y el tipo de dato es ${typeof resultado} `);
+    //contador
+    contador ++;
+    contador --;
+    //sumador
+    numero1 = numero1 + numero2;
+    //modulo
+    if (numero1 %2==0) {
+        console.log("el numero es par");
+    }
+    else {
+        console.log("el numero es impar");
+    }
+
+}
+else 
+    if (operacion == 2) {
+          let resultado = numero1 - numero2;
+         // console.log("el resultado es:" + resultado);
+             console.log( `el resultado es: ${resultado} y el tipo de dato es ${typeof resultado} `);
+
+    }
+    else 
+        if (operacion ==3 ) {
+              let resultado = numero1 * numero2;
+              //console.log("el resultado es:" + resultado);
+              console.log( `el resultado es: ${resultado} y el tipo de dato es ${typeof resultado} `);
+
+        }
+        else
+            if (operacion==4) {
+                  let resultado = numero1 / numero2;
+                  //console.log("el resultado es:" + resultado);
+                  console.log( `el resultado es: ${resultado} y el tipo de dato es ${typeof resultado} `);
+
+            }
+            else {
+                console.log("operacion no valida");
+            }
+
+
+    
+
